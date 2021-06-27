@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+}
+
+h2 { 
+    text-align: center;
+    font-size: 20px;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  transform: scale(1.2);
+}
+
+.title {
+    text-align: center;
+}
+.footer {
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.scoreNumber {
+    padding: 0px;
+    font-size: 30px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    width: 300px;
+    margin: 10px auto;
+}
+.box {
+    border: 1px solid black;
+}
+
+.refresh {
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 15px 7px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.hide {
+    display: none; 
+}
+.show {
+    display: block;
+}
