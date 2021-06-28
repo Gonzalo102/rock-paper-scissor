@@ -1,3 +1,5 @@
+
+
 .container {
     display: flex;
     align-items: center;
@@ -5,6 +7,46 @@
     background-color: white;
     width: 300px;
     margin: auto;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    width: 500px;
+    margin: 10px auto;
+    gap: 20px;
+}
+
+.selection{
+    width: 200px;
+    height: 100px;
+}
+
+.rock-image{
+    background-image: url(rock.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+
+}
+
+.hand-image{
+    background-image: url(hand.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+.scissor-image{
+    background-image: url(scissor.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+.box {
+    border: 1px solid black;
 }
 
 h2 { 
@@ -38,25 +80,26 @@ h2 {
     font-size: 30px;
 }
 
-.container2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: white;
-    width: 300px;
-    margin: 10px auto;
-}
-.box {
-    border: 1px solid black;
-}
+
 
 .refresh {
     cursor: pointer;
     margin: 10px auto;
     padding: 15px 7px;
-    width: 50%;
+    width: 20%;
     text-align: center;
     font-size: 20px;
     border: 1px solid black;
+}
+
+#comments{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#headerWinner{
+    font-size: 1.8rem;
+    margin-top: 10px;
 }
 
 .hide {
