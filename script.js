@@ -74,6 +74,7 @@ function Round(ComputerSelection, UserSelection) {
       
     if (ComputerScore === 5 || UserScore === 5) {
 		header.textContent = "WE HAVE A WINNER!!";
+        comments.textContent = "";
         if (ComputerScore > UserScore) {
             headerWinner.textContent = "Computer Wins";
     	}else if (ComputerScore < UserScore) { 
@@ -134,3 +135,5 @@ function deleteClass(){
     userDisplay.classList.remove('scissor-image');
 
 }
+
+  
